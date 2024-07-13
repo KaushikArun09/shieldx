@@ -1,0 +1,364 @@
+.createAnAccount {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 36px;
+  font-weight: 600;
+  font-family: var(--font-epilogue);
+  color: var(--color-gray-200);
+  text-align: center;
+}
+.signupTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-52xl) var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.facebookLogo {
+  height: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  color: var(--color-firebrick);
+  text-align: left;
+  display: inline-block;
+}
+.facebookButtonContainer {
+  align-self: stretch;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.googleIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.button3,
+.googleIcon,
+.logoFacebookIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button3 {
+  width: 81px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-lavenderblush);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-13xl) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+}
+.logoFacebookIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.logoFacebookWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.text {
+  height: 0;
+  width: 0;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+}
+.button2 {
+  border-radius: var(--br-lg);
+  background-color: var(--color-ghostwhite);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-13xl) var(--padding-3xs);
+}
+.button2,
+.socialButtons,
+.socialLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.socialButtons {
+  width: 213px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.socialLogin {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-4xs) var(--padding-base) 0;
+}
+.fullName,
+.johnDoe {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  min-width: 75px;
+}
+.johnDoe {
+  color: var(--color-silver);
+  min-width: 72px;
+}
+.nameField,
+.nameInput,
+.textfield {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield {
+  align-self: stretch;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-base) var(--padding-5xs);
+  white-space: nowrap;
+}
+.nameField,
+.nameInput {
+  max-width: 100%;
+}
+.nameField {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.nameInput {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.email,
+.exampleemailgmailcom {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.email {
+  display: inline-block;
+  color: var(--color-darkslategray-100);
+  min-width: 43px;
+}
+.exampleemailgmailcom {
+  color: var(--color-silver);
+  white-space: nowrap;
+}
+.emailField,
+.emailInput,
+.textfield1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield1 {
+  align-self: stretch;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  padding: var(--padding-4xs) var(--padding-base) var(--padding-5xs);
+}
+.emailField,
+.emailInput {
+  max-width: 100%;
+}
+.emailField {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.emailInput {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) var(--padding-5xs) var(--padding-lg);
+  box-sizing: border-box;
+}
+.enterAtLeast,
+.password {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.password {
+  display: inline-block;
+  color: var(--color-darkslategray-100);
+  min-width: 77px;
+}
+.enterAtLeast {
+  color: var(--color-silver);
+}
+.hideIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.passwordVisibility,
+.textfield2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.textfield2 {
+  align-self: stretch;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-mini) var(--padding-5xs)
+    var(--padding-base);
+  gap: var(--gap-xl);
+}
+.passwordField,
+.passwordInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.passwordField {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xs);
+}
+.passwordInput {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xs) var(--padding-lgi) var(--padding-mini);
+  box-sizing: border-box;
+}
+.signUp {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 64px;
+}
+.button1,
+.submitButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button1 {
+  flex: 1;
+  box-shadow: 0 0 2px rgba(0, 189, 214, 0.12),
+    0 8px 17px rgba(0, 189, 214, 0.15);
+  border-radius: var(--br-7xl);
+  background-color: var(--color-darkturquoise);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  white-space: nowrap;
+}
+.submitButton {
+  width: 384px;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+}
+.beenHereBefore,
+.logIn {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-200);
+  text-align: right;
+  display: inline-block;
+  min-width: 122px;
+}
+.logIn {
+  color: var(--color-darkturquoise);
+  text-align: left;
+  min-width: 41px;
+  white-space: nowrap;
+}
+.loginOption {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.container2,
+.existingUser {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.existingUser {
+  width: 350px;
+  flex-direction: row;
+  justify-content: center;
+}
+.container2 {
+  margin: 0;
+  align-self: stretch;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 4px 9px rgba(23, 26, 31, 0.11);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-39xl) var(--padding-163xl) var(--padding-217xl)
+    var(--padding-182xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+}
+@media screen and (max-width: 1050px) {
+  .container2 {
+    padding: var(--padding-19xl) var(--padding-72xl) var(--padding-134xl)
+      var(--padding-81xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .createAnAccount {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .signupTitle {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .container2 {
+    padding: var(--padding-6xl) var(--padding-xl) var(--padding-80xl);
+    box-sizing: border-box;
+  }
+}

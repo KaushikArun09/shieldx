@@ -1,0 +1,207 @@
+.oval2,
+.shieldx {
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.oval2 {
+  margin-top: -714px;
+  margin-right: -784px;
+  margin-bottom: 28px;
+  width: 551px;
+  height: 551px;
+  border-radius: 50%;
+  background-color: var(--color-gray-300);
+}
+.shieldx {
+  margin: 0;
+  width: 526px;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.logo21Icon {
+  height: 72px;
+  width: 78px;
+  position: relative;
+  object-fit: cover;
+  margin-left: -459px;
+}
+.loginHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.safegaurdYourData {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 100%;
+}
+.loginFormContainer,
+.loginMessage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loginMessage {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.loginFormContainer {
+  width: 536px;
+  flex-direction: column;
+}
+.mainContent,
+.oval2Parent {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mainContent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 51px 0 var(--padding-xl);
+  flex-shrink: 0;
+}
+.oval2Parent {
+  height: 1715px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 634px 628px 0 637px;
+  gap: 135px;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-epilogue);
+}
+.footerGraphicsChild,
+.oval1 {
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.oval1 {
+  margin-left: -1663px;
+  margin-bottom: -215px;
+  height: 662px;
+  width: 662px;
+  border-radius: 50%;
+  background-color: var(--color-gray-300);
+}
+.footerGraphicsChild {
+  height: 153px;
+  width: 784px;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 17px 35px rgba(23, 26, 31, 0.24);
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  background-color: rgba(255, 255, 255, 0.83);
+}
+.assinatura,
+.footerGraphics {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.footerGraphics {
+  align-self: stretch;
+  height: 447px;
+  flex-direction: row;
+  padding: 0 1424px;
+  box-sizing: border-box;
+  gap: 1001px;
+  max-width: 100%;
+}
+.assinatura {
+  width: 100%;
+  position: relative;
+  background-color: #1b1919;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 420px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .oval2Parent {
+    padding-top: 268px;
+    box-sizing: border-box;
+  }
+  .footerGraphics {
+    gap: 500px;
+    padding-left: var(--padding-693xl);
+    padding-right: var(--padding-693xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .shieldx {
+    font-size: var(--font-size-19xl);
+    line-height: 54px;
+  }
+  .oval2Parent {
+    gap: 67px;
+    padding-left: 318px;
+    padding-right: 314px;
+    box-sizing: border-box;
+  }
+  .assinatura {
+    gap: 210px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mainContent {
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .oval2Parent {
+    gap: var(--gap-15xl);
+    padding-left: 159px;
+    padding-top: 174px;
+    padding-right: 157px;
+    box-sizing: border-box;
+  }
+  .footerGraphics {
+    gap: 250px;
+    padding-left: var(--padding-337xl);
+    padding-right: var(--padding-337xl);
+    box-sizing: border-box;
+  }
+  .assinatura {
+    gap: 105px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .shieldx {
+    font-size: var(--font-size-10xl);
+    line-height: 41px;
+  }
+  .footerGraphics,
+  .oval2Parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .oval2Parent {
+    gap: var(--gap-mid);
+  }
+  .footerGraphics {
+    gap: 125px;
+  }
+  .assinatura {
+    gap: 52px;
+  }
+}
